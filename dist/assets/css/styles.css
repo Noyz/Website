@@ -103,12 +103,32 @@ section {
   background-position: center center;
 }
 
+#professional {
+  background-image: url('../../../src/assets/img/header.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#professional h2 {
+  margin-bottom: 50px;
+  color: #dddcdb !important;
+}
+
+#professional h4 {
+  font-size: 18px;
+}
+
+#professional h5 {
+  font-size: 16px;
+}
+
 .technologies .fa-star {
   opacity: 0;
 }
 
 .realisation {
-  background-image: url('../../../src/assets/img/projects.jpg');
+  background-image: url('../../../src/assets/img/jordan.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -119,6 +139,7 @@ section {
   margin-bottom: 50px;
   text-align: justify;
   box-shadow: 0 0 5px rgba(6, 6, 6, .4);
+  bzckground-color: #f5f5f5;
 }
 
 .realisation .project_bloc img {

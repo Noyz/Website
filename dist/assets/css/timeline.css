@@ -10,6 +10,10 @@
   padding-right: 30px;
   display:none;
 }
+
+#ifocop{
+  margin-bottom:60px;
+}
 .timeline .timeline-item.timeline-item-right,
 .timeline .timeline-item:nth-of-type(even):not(.timeline-item-left) {
   padding-left: 30px;

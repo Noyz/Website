@@ -65,8 +65,8 @@ $(document).ready(function(){
 	// Animation professionnal career
 	function animationCareer (){
 		// if($('#timeline-title').visible() && switch_animationCareer !== 1){
-		if($(window).scrollTop() > $('#timeline-title').offset().top - 100 && switch_animationCareer !== 1){
-			$('.timeline-item').css('opacity', 0).slideDown(1500, function(){
+		if($(window).scrollTop() > $('#timeline-title').offset().top - 100 && switch_animationCareer !== 1 && $('#timeline-title').visible()){
+			$('.timeline-item').css('opacity', 0).slideDown(1000, function(){
 
 				if($(this).offset().left == $('#timeline-title').offset().left){
 					$(this).css({'opacity':0, "left": "-100px"}).animate({ opacity: 1, left:0 },{ queue: false, duration: 1000 });

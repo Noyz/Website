@@ -125,6 +125,26 @@ section{
 	}
 }
 
+#professional{
+	background-image: url("../../../src/assets/img/header.jpg");
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	h2{
+		color:#dddcdb !important;
+		margin-bottom:50px;
+	}
+	h4{
+		font-size:18px;
+	}
+	h5{
+		font-size:16px;
+	}
+}
+
 
 .technologies{
 	.fa-star{
@@ -133,7 +153,7 @@ section{
 }
 
 .realisation{
-	background-image: url("../../../src/assets/img/projects.jpg");
+	background-image: url("../../../src/assets/img/jordan.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -145,6 +165,7 @@ section{
 		margin-bottom:50px;
 		text-align:justify;
 		box-shadow: 0px 0px 5px rgba(6, 6, 6, 0.4);
+		bzckground-color:#f5f5f5;
 		img{
 			width: 100%;
 		}
